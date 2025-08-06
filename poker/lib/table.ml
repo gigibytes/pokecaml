@@ -1,10 +1,9 @@
-open! Core
+open Player
+open Dealer
+open Board
 
-module Table = struct
-  type t = {
-    players : Player list;
-    dealer : Dealer;
-    board : Board
-  }
-end
-
+type t = {
+  players : player list;
+  dealer : dealer;
+  board : board
+}
