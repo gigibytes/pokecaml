@@ -1,0 +1,4 @@
+(executable
+ (name poker)
+ (libraries core)
+ (preprocess (pps ppx_jane)))
