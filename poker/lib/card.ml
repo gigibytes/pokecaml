@@ -1,10 +1,5 @@
-open Core
+type suit = Clubs | Diamonds | Hearts | Spades
 
-module Card = struct
-  type t = Rank * Suit
-  
-  type Suit = Clubs | Diamonds | Hearts | Spades
-  
-  type Rank = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace
-end
+type rank = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace
 
+type t = rank * suit

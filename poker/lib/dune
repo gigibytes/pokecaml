@@ -1,2 +1,11 @@
 (library
- (name poker))
+ (name poker)
+ (libraries
+  board
+  card
+  dealer
+  deck
+  game
+  table
+  player
+  core))

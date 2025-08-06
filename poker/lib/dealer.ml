@@ -1,12 +1,11 @@
-open Core
+open Deck
+open Player
 
-module Dealer = struct
-  type t
+type t
   
-  let shuffle deck () = ();;
+let shuffle deck () = ();;
   
-  module Deal = struct
-    let pre_flop deck players () = ();;
-    let next_card deck board () = ();;
-  end
+module Deal = struct
+  let pre_flop deck players () = ();;
+  let next_card deck board () = ();;
 end
