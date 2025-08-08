@@ -1,4 +1,4 @@
-# pokecaml
+# texas-hold-ml
 poker implementation in ocaml
 
-AKA Texas Hold ML.
+
