@@ -1,4 +1,4 @@
 # texas-hold-ml
-poker implementation in ocaml
+wip poker implementation in ocaml
 
 
